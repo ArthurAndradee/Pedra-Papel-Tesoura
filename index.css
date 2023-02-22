@@ -1,0 +1,12 @@
+.choicebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 700px;
+}
+
+button img {
+    width: 600px;
+    height: 600px;
+}
