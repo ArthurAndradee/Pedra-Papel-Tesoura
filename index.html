@@ -29,28 +29,28 @@
             <h1>Rock</h1>
         </div>
         <div class="choiceName">
-            <button class="paper btn-size mx-5 px-5" onclick="play()">
+            <button class="paper btn-size mx-5 px-5" onclick="paper()">
                 <img src="https://lookingforseed.com/wp-content/uploads/2020/06/empty-maps-256.png" alt="paper">
             </button>
             <h1>Paper</h1>
         </div>
         <div class="choiceName">
-            <button class="scissors btn-size mx-5 px-5" onclick="play()">
+            <button class="scissors btn-size mx-5 px-5" onclick="scissors()">
                 <img src="https://thumbs.dreamstime.com/b/young-man-doing-scissors-exercise-young-man-doing-scissors-exercise-white-background-150926861.jpg">
             </button>
             <h1>Scissors</h1>
         </div>
     </section>
     <div class="cat">
+        <h1 id="playerchoice"></h1>
         <h1 id="computerchoice"></h1>
     </div>
     <section id="scoreboard">
         <div class="winner">
-            <img src="https://lookingforseed.com/wp-content/uploads/2020/06/empty-maps-256.png"
-            alt="winner">
+            <img id="winnerImg">
         </div>
-            <h1 class="winnername">AA</h1>
+            <h1 id="winnerName"></h1>
     </section>
+    <script src="./index.js"></script>
 </body>
-<script src="./index.js"></script>
 </html>

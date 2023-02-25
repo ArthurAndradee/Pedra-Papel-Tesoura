@@ -22,12 +22,23 @@ button img {
     font-size: 740%;
 }
 
-.cat h1 {
+#computerchoice {
     display: flex;
     justify-content: center;
     align-items: center;
 
     margin-top: 170px;
+    
+    font-family: 'Merriweather', serif;
+    font-size: 500%;
+}
+
+#playerchoice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 180px;
     
     font-family: 'Merriweather', serif;
     font-size: 500%;
@@ -53,12 +64,12 @@ button img {
     margin-top: 5%;
 }
 
-.winnername {
+#winnerName {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    margin-top: 1%;
+    margin-top: 3%;
 
     font-family: 'Merriweather', serif;
     font-size: 640%;
